@@ -23,7 +23,7 @@ MySQL | Redis | PostgreSQL
 
 #### AWS
 
-VPC | S3 | Cloud Front | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | EKS(Kubernetes) | Route53 | IAM | Elasticsearch Service | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) |  SQS | SNS | SES  | Cloud Formation | Cloud Watch | Amazon Personalize | CloudTrail | 
+VPC | S3 | Cloud Front | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | EKS(Kubernetes) | Route53 | IAM | Elasticsearch Service | RDS(MySQL|PostgreSQL) | ElastiCache(Redis) |  SQS | SES
 
 
 ### SaaS/PaaS
@@ -32,7 +32,7 @@ GitHub | GitHub Actions | Gitlab | CircleCI | Sentry
 
 ### その他
 
-Terraform | Docker  | nginx | Apache | Elasticsearch | IndexedDB
+Terraform | Docker  | nginx | Apache | IndexedDB
 
 ## 主な業務経歴
 
