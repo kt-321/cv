@@ -114,56 +114,64 @@ http://your-songs-laravel.site
 </ul>
 　
 【主な使用技術】
-・Golang 1.14
-・Nuxt.js 2.11
-・TypeScript 3.9
-・AWS
-・VPC
-・EC2
-・Route53
-・RDS for MySQL
-・S3
-・ALB
-・ECS
-・ECR
-・Terraform
-・AWS Secrets Manager
-・ElastiCache(Redis)
+<ul>
+ <li>Golang 1.14</li>
+ <li>Nuxt.js 2.11</li>
+ <li>TypeScript 3.9</li>
+ <li>AWS</li>
+ <li>VPC</li>
+ <li>EC2</li>
+ <li>Route53</li>
+ <li>RDS for MySQL</li>
+ <li>ElastiCache(Redis)</li>
+ <li>S3</li>
+ <li>ALB</li>
+ <li>ECS</li>
+ <li>ECR</li>
+ <li>Terraform</li>
+ <li>AWS Secrets Manager</li>
+</ul>
 
 【Golangのコード】
-・net/httpパッケージでHTTPサーバーの起動
-・gorilla/muxを用いてルーティング作成
-・ORM用ライブラリGORMを使用
-・sql-migrateを用いてマイグレーション
-・パッケージ管理にGOMODULE使用
-・testingパッケージを用いてテストコード記述
-・go-jwt-middlewareパッケージを用いてJWT認証の実装
-・Redigoを用いてRedisの使用
-・HTTPサーバーのgraceful shutdown
-・encoding/jsonを用いてjsonのエンコード/デコード
-・bcryptを用いてパスワードをハッシュ化
-・GolangCI-Lintの使用
-・デバッグにdelveを使用
+<ul>
+ <li>net/httpパッケージでHTTPサーバーの起動</li>
+ <li>gorilla/muxを用いてルーティング作成</li>
+ <li>ORM用ライブラリGORMを使用</li>
+ <li>sql-migrateを用いてマイグレーション</li>
+ <li>パッケージ管理にGOMODULE使用</li>
+ <li>testingパッケージを用いてテストコード記述</li>
+ <li>go-jwt-middlewareパッケージを用いてJWT認証の実装</li>
+ <li>Redigoを用いてRedisの使用</li>
+ <li>HTTPサーバーのgraceful shutdown</li>
+ <li>encoding/jsonを用いてjsonのエンコード/デコード</li>
+ <li>bcryptを用いてパスワードをハッシュ化</li>
+ <li>GolangCI-Lintの使用</li>
+ <li>デバッグにdelveを使用</li>
+</ul>
 
 構造体にjsonタグを付与することで、APIリクエストがあるとJSON形式でフロントにレスポンスを返しています。
 
 【実装済みの主な機能】
-・ユーザー登録・ログイン
-・ユーザー情報の取得
-・ユーザー情報編集
-・SpotifyAPIを用いた曲検索
-・曲の追加
-・曲情報の取得
-・曲の編集
-・曲の削除
-・曲をお気に入りする機能
-・曲の絞り込み
-・Redis(ElastiCache)の利用（曲の取得・追加・更新・削除）
-・多層キャッシュ構造
-・Clean Architectureを倣ったディレクトリ構成
-・テストコード
-・Github Actionsを用いた自動テスト
-・Github Actionsを用いて、ECR へのimageの自動push, ECS(Fargate)でのコンテナ作成
+<ul>
+ <li>ユーザー登録・ログイン</li>
+ <li>ユーザー情報の取得</li>
+ <li>ユーザー情報編集</li>
+ <li>SpotifyAPIを用いた曲検索</li>
+ <li>曲の追加</li>
+ <li>曲情報の取得</li>
+ <li>曲の編集</li>
+ <li>曲の削除</li>
+ <li>曲をお気に入りする機能</li>
+ <li>曲の絞り込み</li>
+ <li>Redis(ElastiCache)の（曲の取得・追加・更新・削除）</li>
+ <li>多層キャッシュ構造</li>
+ <li>Clean Architectureを倣ったディレクトリ構成</li>
+ <li>テストコード</li>
+ <li>Github Actionsを用いた自動テスト</li>
+ <li>Github Actionsを用いて、ECR へのimageの自動push, ECS(Fargate)でのコンテナ作成</li>
+</ul>
+
+
 
 【現在実装中】
 ・画像をアップロードしてS3に保存する機能
