@@ -6,7 +6,7 @@
 
 ### 言語
 
-Go  | Python | JavaScript | TypeScript | PHP
+Go | Python | JavaScript | TypeScript | PHP
 
 ### フレームワーク等
 
@@ -20,7 +20,7 @@ MySQL | Redis | PostgreSQL
 
 #### AWS
 
-VPC | S3 | Cloud Front | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | EKS(Kubernetes) | Route53 | IAM | Elasticsearch Service | RDS(MySQL|PostgreSQL) | ElastiCache(Redis) |  SQS | SES
+VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | ECR | EKS(Kubernetes) | Route53 | CloudWatchLogs | IAM | RDS(MySQL|PostgreSQL) | ElastiCache(Redis) | SQS | SES
 
 
 ### SaaS/PaaS
@@ -29,7 +29,7 @@ GitHub | GitHub Actions | Gitlab | CircleCI | Sentry
 
 ### その他
 
-Terraform | Docker  | nginx | Apache | IndexedDB
+Terraform | Docker | nginx | Apache | Serverless Framework
 
 ## 主な業務経歴
 
@@ -62,10 +62,10 @@ Terraformを使用してコードでリソースの追加・変更を実行。�
 　バックエンドを中心としながらもフロントも一緒に開発しているため、ユーザーの利便性について考えるよう意識しています。
 
 ##### ＜バグ対応＞
-　アプリケーションでエラーが発生している場合は、
+　アプリケーションでバグが発生している場合は、
 <ul>
-<li>EC2にssh接続してdockerコンテナのログを確認</li>
-<li>Chrome Developer Toolsの NetworkやConsoleを確認</li>
+<li>CloudWatchLogsのログを確認</li>
+<li>Chrome Developer Toolsの NetworkやConsoleなどを確認</li>
 <li>データベースの値を確認</li>
 <li>ローカル環境にてデバッグ作業</li>
 </ul>
@@ -101,20 +101,79 @@ Terraformを使用してコードでリソースの追加・変更を実行。�
 
 　プライベートの時間で開発しているGolang + Nuxt.jsのアプリケーションです。アプリケーション（PHP/Laravel+Nuxt.jsのSPA）のバックエンドをGolangにリプレイスしました。
 　Spotifyの無料アカウントを作ってお持ちであれば、Spotifyで曲を検索して投稿することができます。
+  実際に業務でGolangを使用している方に、コードレビューしてもらいながら実装を進めています。
 
 【アプリケーションURL】
 http://your-songs-laravel.site
 
 【Github】
+アプリケーションの詳細は以下のGithubリポジトリから確認できます。
 <ul>
 <li>https://github.com/kt-321/golang-songs　→　Golang</li>
 <li>https://github.com/kt-321/nuxt-songs-go　→　Nuxt.js</li>
 </ul>
-　実際に業務でGolangを使用している方に、コードレビューしてもらいながら実装を進めています。
+　
+【主な使用技術】
+・Golang 1.14
+・Nuxt.js 2.11
+・TypeScript 3.9
+・AWS
+・VPC
+・EC2
+・Route53
+・RDS for MySQL
+・S3
+・ALB
+・ECS
+・ECR
+・Terraform
+・AWS Secrets Manager
+・ElastiCache(Redis)
+
+【Golangのコード】
+・net/httpパッケージでHTTPサーバーの起動
+・gorilla/muxを用いてルーティング作成
+・ORM用ライブラリGORMを使用
+・sql-migrateを用いてマイグレーション
+・パッケージ管理にGOMODULE使用
+・testingパッケージを用いてテストコード記述
+・go-jwt-middlewareパッケージを用いてJWT認証の実装
+・Redigoを用いてRedisの使用
+・HTTPサーバーのgraceful shutdown
+・encoding/jsonを用いてjsonのエンコード/デコード
+・bcryptを用いてパスワードをハッシュ化
+・GolangCI-Lintの使用
+・デバッグにdelveを使用
+
+構造体にjsonタグを付与することで、APIリクエストがあるとJSON形式でフロントにレスポンスを返しています。
+
+【実装済みの主な機能】
+・ユーザー登録・ログイン
+・ユーザー情報の取得
+・ユーザー情報編集
+・SpotifyAPIを用いた曲検索
+・曲の追加
+・曲情報の取得
+・曲の編集
+・曲の削除
+・曲をお気に入りする機能
+・曲の絞り込み
+・Redis(ElastiCache)の利用（曲の取得・追加・更新・削除）
+・多層キャッシュ構造
+・Clean Architectureを倣ったディレクトリ構成
+・テストコード
+・Github Actionsを用いた自動テスト
+・Github Actionsを用いて、ECR へのimageの自動push, ECS(Fargate)でのコンテナ作成
+
+【現在実装中】
+・画像をアップロードしてS3に保存する機能
+・CloudFrontの導入
+・Lambda・API Gatewayの導入
+
 
 
 ### 2018年4月〜　中国電力株式会社で法人営業として勤務
 
-営業所にて法人営業として勤め、電気の大口のお客様を相手に営業活動・契約の締結が主な業務内容でした。
+法人営業として勤め、電気の大口のお客様を相手に営業活動・契約の締結が主な業務内容でした。
 業務の効率化に繋がることについては意見を述べるように心がけていました。
 
