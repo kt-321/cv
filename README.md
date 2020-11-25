@@ -174,10 +174,11 @@ http://your-songs-laravel.site
 
 
 【現在実装中】
-・画像をアップロードしてS3に保存する機能
-・CloudFrontの導入
-・Lambda・API Gatewayの導入
-
+<ul>
+<li>画像をアップロードしてS3に保存する機能</li>
+<li>CloudFrontの導入</li>
+<li>Lambda・API Gatewayの導入</li>
+</ul>
 
 
 ### 2018年4月〜　中国電力株式会社で法人営業として勤務
