@@ -78,6 +78,30 @@ Terraformを使用してコードでリソースの追加・変更を実行。�
 　AWSのマネジメントサービスを用いたインフラ周りについて、Terraformを用いてコードで管理されており、追加で必要になったEC２やSQSなどを追加・変更することがあります。
 　開発作業においてdevelopの環境をもう一つ欲しいという要望があったことからTerraformにて作成しました。
 
+【主な使用技術】
+<ul>
+ <li>Python 3.7.5</li>
+ <li>Nuxt.js 2.11</li>
+ <li>TypeScript 3.9</li>
+ <li>AWS</li>
+ <li>VPC</li>
+ <li>EC2</li>
+ <li>Route53</li>
+ <li>RDS for MySQL</li>
+ <li>ElastiCache(Redis)</li>
+ <li>S3</li>
+ <li>ALB</li>
+ <li>ECS</li>
+ <li>ECR</li>
+ <li>Terraform</li>
+ <li>AWS Secrets Manager</li>
+ <li>Docker</li>
+ <li>Severless Framework</li>
+ <li>API Gateway</li>
+ <li>Lambda</li>
+ <li>CloudWatchLogs</li>
+</ul>
+
 =============================================================================
 
 #### 【開発作業以外でのタスク・アクション】
