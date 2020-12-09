@@ -20,7 +20,7 @@ MySQL | Redis | PostgreSQL
 
 #### AWS
 
-VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | ECR | EKS(Kubernetes) | Route53 | CloudWatchLogs | IAM | RDS(MySQL|PostgreSQL) | ElastiCache(Redis) | SQS | SES
+VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | ECR | Route53 | CloudWatchLogs | IAM | RDS(MySQL|PostgreSQL) | ElastiCache(Redis) | SQS | SES
 
 
 ### SaaS/PaaS
