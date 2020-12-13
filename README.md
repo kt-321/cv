@@ -180,7 +180,7 @@ Terraform | Docker | nginx | Apache | Serverless Framework<br><br><br>
  <li>Github Actionsを用いて、ECR へのimageの自動push, ECS(Fargate)でのコンテナ作成</li>
 </ul>
 
-<br><br>【現在実装中】
+<br><br>【実装予定】
 <ul>
 <li>画像をアップロードしてS3に保存する機能</li>
 <li>CloudFrontの導入</li>
