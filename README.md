@@ -122,7 +122,7 @@ Terraformを使用してコードでリソースの追加・変更を実行。�
 
 ### ②2020年４月〜　オリジナルのアプリケーション開発(Golang/Nuxt.js/AWS)
 
-　プライベートの時間で開発しているGolang + Nuxt.jsのアプリケーションです。アプリケーション（PHP/Laravel+Nuxt.jsのSPA）のバックエンドをGolangにリプレイスしました。
+　Golang + Nuxt.jsおよびAWSで開発しているアプリケーションです。アプリケーション（PHP/Laravel+Nuxt.jsのSPA）のバックエンドをGolangにリプレイスしました。
 　Spotifyの無料アカウントを作ってお持ちであれば、Spotifyで曲を検索して投稿することができます。
   実際に業務でGolangを使用している方に、コードレビューしてもらいながら実装を進めています。
 
