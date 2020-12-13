@@ -71,7 +71,7 @@ Terraform | Docker | nginx | Apache | Serverless Framework<br><br><br>
 　AWSのマネジメントサービスを用いたインフラ周りについて、Terraformを用いてコードで管理されており、リソースを追加・変更することがあります。<br>　開発作業において検証用の環境を追加で一つ欲しいという要望があったことからTerraformにて作成しました。
  
 ##### ＜Docker＞
-　（ECSへの以降前に）EC2上に立ち上げられているDockerコンテナをDocker Composeを用いて管理。新規に追加・停止・名前変更などの対応を行いました。
+　（ECSへの以降前に）EC2上に立ち上げられているDockerコンテナをDocker Composeを用いて管理。新規に追加・停止・名前変更などの対応を行いました。<br><br>
 
 【主な使用技術】
 <ul>
