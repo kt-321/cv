@@ -182,6 +182,7 @@ Terraform | Docker | nginx | Apache | Serverless Framework<br><br><br>
 
 <br><br>【実装予定】
 <ul>
+<li>業務での経験を活かし、インフラ周りをTerraformでコード管理</li>
 <li>画像をアップロードしてS3に保存する機能</li>
 <li>CloudFrontの導入</li>
 <li>Lambda・API Gatewayの導入</li>
