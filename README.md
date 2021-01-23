@@ -32,7 +32,7 @@ Terraform | Docker | nginx | Apache | Serverless Framework<br><br><br>
 
 ## 主な業務経歴
 
-### ①2019年11月〜　不動産紹介支援アプリケーションの開発 (Python/Nuxt.js)
+### ①2019年11月〜2021年1月　不動産紹介支援アプリケーションの開発 (Python/Nuxt.js)
 
 #### 【開発作業について】
 
