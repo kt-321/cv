@@ -114,7 +114,7 @@ Terraform | Docker | nginx | Apache | Serverless Framework<br><br><br>
 
 　Golang + Nuxt.jsおよびAWSで開発しているアプリケーションです。アプリケーション（PHP/Laravel+Nuxt.jsのSPA）のバックエンドをGolangにリプレイスしました。<br>　Spotifyの無料アカウントを作ってお持ちであれば、Spotifyで曲を検索して投稿することができます。<br>　実際に業務でGolangを使用している方に、コードレビューしてもらいながら実装を進めています。
 
-【アプリケーションURL】<br>　http://your-songs-laravel.site
+【アプリケーションURL】<br>　http://your-songs-go.com
 
 【Github】<br>　アプリケーションの詳細は以下のGithubリポジトリから確認できます。
 <ul>
